@@ -7,9 +7,12 @@
 
 (Will practice and master recursion too, will use it soon in later projects)
 
+
 ---
 
-Description about the Projects(Should maybe call them problems idk)
+
+### Description about the Projects/Problems
+
 
 1. [**Permutations**](https://github.com/SAURAV2007YO/Heavy-Python-Projects/blob/main/1.%20Permutations%20(for%20All).py) (A Beautiful one):
 made a great State counter, using and converting **"A Great Mathematical Logic"** into python code, maybe could have used recursion idk.
