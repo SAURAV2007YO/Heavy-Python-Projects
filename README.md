@@ -11,7 +11,7 @@
 ---
 
 
-### Description about the Projects/Problems
+### Description of the Projects/Problems
 
 
 1. [**Permutations**](https://github.com/SAURAV2007YO/Heavy-Python-Projects/blob/main/1.%20Permutations%20(for%20All).py) (A Beautiful one):
