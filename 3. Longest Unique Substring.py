@@ -1,4 +1,4 @@
-# dictionaries were made for such projects; i should have used them haha
+3# dictionaries were made for such projects; i should have used them haha
 
 a= str(input("Enter String to find the longest unique substring: "))
 
