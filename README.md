@@ -14,7 +14,7 @@ Description about the Projects(Should maybe call them problems idk)
 1. **Permutations** (A Beautiful one):
 made a great State counter, using and converting **"A Great Mathematical Logic"** into python code, maybe could have used recursion idk
 
-2. **Spiral Number Square**  (Beautiful):
+2. **Number Spiral Square**  (Beautiful):
 used 1/2 pre-calculated math formulas(on the paper) to avoid recursion hell, had to write many different loops for this one
 
 3. **Longest unique substring**:
