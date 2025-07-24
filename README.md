@@ -1,12 +1,13 @@
 # Heavy-Python-Projects
 **Loops**(For & while), **Conditional Statements**(Only where its required) & **Functions** **"**have been Heavily used**"**; 
+
 **Highly Mathematically oriented Logic** with minimal use of python libraries 
 
 (just as a way to show off my Mathematical & CS Thinking and reasoning abilities haha)
 
 but will nicely learn/practice and use recursion in further projects.
 
-
+Description about the Projects(Should maybe call them problems idk):
 
 **Permutations** (A Beautiful one):
 made a great State counter, using and converting **"A Great Mathematical Logic"** into python code, maybe could have used recursion idk
