@@ -20,7 +20,7 @@ Made this project intitally only for strings with all unique charecters; when it
 used 1/2 pre-calculated math formulas(on the paper) to avoid recursion hell, had to write many different loops for this one
 
 3. **Longest unique substring**:
-Used Lists as the substitute for dictionaries, both of them would have used the same amount of compute power.  had to write more code because of using lists
+Used Lists as the substitute for dictionaries, both use the same amount of compute power.  had to write more code because of using lists
 
 4. **Nearby Pythagorean Triplets Discoverer** & **List Ascending order**:
 Nothing much special
