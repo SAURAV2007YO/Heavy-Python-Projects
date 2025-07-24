@@ -3,6 +3,7 @@
 **Highly Mathematically oriented Logic** with minimal use of python libraries 
 
 (just as a way to show off my Mathematical & CS Thinking and reasoning abilities haha)
+
 but will nicely learn/practice and use recursion in further projects.
 
 
