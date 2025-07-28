@@ -7,6 +7,9 @@ def BlankLinePrinter(c: int): # c must be an integer (obviously)
    for i in range(int(c)):
         print()
 
+
+#################################################################################
+
 SIn = 0
 while SIn>=0:
     S = str(input("Enter a string (any): "))
@@ -18,7 +21,9 @@ while SIn>=0:
 
 Perms = []
 
-# 3 Things are made here
+
+
+######################## 3 Things are made here
 s2=1
 charofS  = [[S[0],1]] # how many duplicates of a char are present (1 list for 1 str and not editable)
 uniquechars = [S[0]]
@@ -45,7 +50,7 @@ s4= s4+1
 
 
 
-#######################################################################
+####################################################################### The Code
 
 z=0
 c = copy.deepcopy(m)        # master list
@@ -71,30 +76,32 @@ while z>=0:
     k=0
     for k in range(len(d)):
         if b[(c[i])[0]] == (d[k])[0]:
-                #########################################
+                #####################
                 if (d[k])[1] > 1:
                     (d[k])[1] = (d[k])[1] - 1
                 else:
                     b.pop((c[i])[0]) 
-                ############################################   
+                ################################ 
                 break            
         k=k+1
 
     # print(f"b= {b}") # Test
 
     
-    ########################################
+    ######################## The Final Part for this perm; and for the begininng of the next perm
     if i == len(S)-2:
         
+        ###### add last remaining char in b to the perm
         perm = perm + b[0]
         print(perm) ######## Test
         Perms.append(perm)
         perm = ""
 
+        ################################### for the next new perm, reset b and d
         b= copy.deepcopy(uniquechars)
         d= copy.deepcopy(charofS)
 
-
+        ################## what will be the c for the next new perm
         j=1
         for j in range(1, len(S)):
             if (c[-j])[0] < (c[-j])[1]:
@@ -113,7 +120,10 @@ while z>=0:
             break         
     z=z+1
 
+#######################################################################
 
+
+### for printing the perms
 BlankLinePrinter(3)
 print("The Final List of all Permutations is:")
 print(Perms)
